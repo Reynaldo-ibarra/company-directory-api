@@ -14,13 +14,13 @@ const props = defineProps({
         required: true,
         default: () => {
             return {
-                _id: faker.string.uuid(),
-                username: faker.internet.userName().toLowerCase(),
-                first_name: faker.person.firstName(),
-                last_name: faker.person.lastName(),
-                title: faker.person.jobTitle(),
-                quote: faker.lorem.lines(2),
-                __V: 0,
+                _id: "690fe18420cd14a769438b23",
+                userName: "RIbarra",
+                firstName: "Reynaldo",
+                lastName: "Ibarra",
+                title: "User",
+                quote: "Belive in the you that belives in you",
+                __v: 0
 
             }
 
